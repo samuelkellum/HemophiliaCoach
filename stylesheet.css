@@ -808,3 +808,28 @@ padding-top: 15px;
 padding-right: 5%;
 padding-left: 5%;
 }
+
+#outer-bulletpoints {
+background-color: #1EB7CB;
+list-style-type: disc;
+font-size: 20px;
+padding-right: 5%;
+padding-left: 5%;
+}
+
+#inner-bulletpoints {
+background-color: #1EB7CB;
+list-style-type: circle;
+font-size: 20px;
+padding-right: 5%;
+padding-left: 5%;
+}
+
+.img {
+border-radius: 50%;
+width: 250px;
+height: 250px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
