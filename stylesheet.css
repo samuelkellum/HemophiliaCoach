@@ -777,7 +777,7 @@ font-size: 0.875rem;
 border-radius: 0.25rem;
 }
 
-ul {
+.navbar {
 list-style-type: none;
 margin: 0;
 padding: 0;
@@ -809,20 +809,13 @@ padding-right: 5%;
 padding-left: 5%;
 }
 
-#outer-bulletpoints {
+#bulletpoints {
 background-color: #1EB7CB;
-list-style-type: disc;
 font-size: 20px;
 padding-right: 5%;
 padding-left: 5%;
-}
-
-#inner-bulletpoints {
-background-color: #1EB7CB;
-list-style-type: circle;
-font-size: 20px;
-padding-right: 5%;
-padding-left: 5%;
+display: table;
+margin: 0 auto;
 }
 
 .img {
